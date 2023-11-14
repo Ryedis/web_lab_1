@@ -1,0 +1,158 @@
+
+    header {
+        
+        color: #fff;
+        text-align: center;
+        border-radius: 50px;
+    }
+
+    .header {
+        padding: 1%;
+    }
+
+    .navbar{
+        grid-area: nav;
+        overflow: hidden;
+        margin-left: 35%;
+        text-align: center;
+    }
+    
+    .navbar a {
+        font-family: monospace;
+        font-size: 170%;
+        float: left;
+        color: white;
+        text-align: center;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        background-color: #959494;
+        color: black;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-gap: 1%;
+        padding: 1%;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: rgb(33, 33, 33);
+        border-radius: 30px;
+    }
+
+    .grid-item {
+        background-image: url('https://abrakadabra.fun/uploads/posts/2022-01/1642704704_24-abrakadabra-fun-p-serii-fon-dlya-storis-v-instagram-struktur-34.jpg');
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        text-align: left;
+        border-radius: 15px;
+    }
+
+    .item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+    progress {
+        border-radius: 7px; 
+        width: 100%;
+        height: 12px;
+      }
+
+    .item2 {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    .item3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item4 {
+        grid-template-rows: 1;
+        grid-row: 1 / 3;
+    }
+
+    .cont1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .item5 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .cont {
+        grid-template-columns: 3fr 2fr;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .item_blog {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+
+    .item_img {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        padding: 0%;
+    }
+    h1 {
+        font-family: sans-serif;
+        font-size: 300%;
+        color: #e2e0e0;
+        padding: 5%;
+    }
+    h2 {
+        color: #1e1d1d;
+        font-family: sans-serif;
+        font-size: 300%;
+        margin-top: 0;
+    }
+    h3 {
+        color: #1e1d1d;
+        font-family: sans-serif;
+        font-size: 150%;
+        margin-top: 0;
+    }
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 190%;
+    }
+
+    p1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 130%;
+        
+    }
+
+    .footer {
+        color: #ffffff;
+        margin-left: 5%;
+        font-size: 150%;
+        -webkit-text-stroke: 1px #4b4b4b;
+    }
+    body {
+        background-image: url('https://fonoteka.top/uploads/posts/2021-12/1640054815_13-phonoteka-org-p-chernii-fon-dlya-saita-besshovnii-krasivo-13.png');
+        background-attachment: fixed;
+    }/*  
+    https://fonoteka.top/uploads/posts/2021-12/1640054815_13-phonoteka-org-p-chernii-fon-dlya-saita-besshovnii-krasivo-13.png
+    https://abrakadabra.fun/uploads/posts/2022-02/1645625020_30-abrakadabra-fun-p-sinie-foni-profilya-30.jpg
+    https://catherineasquithgallery.com/uploads/posts/2021-02/1614404929_4-p-temnii-fon-s-kraskami-5.jpg*/
+    .round-image {
+    border-radius: 50%;
+    }
+    .border_img {
+        border-radius: 30px;
+    }
+    LI {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 140%;
+        color: #272727;
+    }

@@ -1,110 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="/gadik.ico" type="image/x-icon">
-  <title>Первая страничка</title>
-  <style>
-    header {
-        background-color: #313030;
-        color: #fff;
-        text-align: center;
-        border-radius: 50px;
-    }
-
-    .header {
-        padding: 1%;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1%;
-        padding: 1%;
-        margin: 3%;
-        background-color: rgb(33, 33, 33);
-        border-radius: 30px;
-    }
-
-    .grid-item {
-        background-image: url('https://abrakadabra.fun/uploads/posts/2022-01/1642704704_24-abrakadabra-fun-p-serii-fon-dlya-storis-v-instagram-struktur-34.jpg');
-        padding-top: 15%;
-        padding-left: 10%;
-        padding-bottom: 10%;
-        padding-right: 5%;
-        text-align: left;
-        border-radius: 30px;
-    }
-
-    .item1 {
-        grid-column: 1 / span 2;
-        grid-row: 1;
-    }
-
-    .item_blog {
-        grid-column: 3;
-        grid-row: 1 / span 2;
-    }
-
-    .item_img {
-        grid-column: 1 / span 2;
-        grid-row: 3;
-        padding: 0%;
-    }
-    h1 {
-        font-family: sans-serif;
-        font-size: 400%;
-        color: #e2e0e0;
-        padding: 5%;
-    }
-    h2 {
-        color: #1e1d1d;
-        font-family: sans-serif;
-        font-size: 300%;
-        margin-top: 0;
-    }
-    h3 {
-        color: #1e1d1d;
-        font-family: sans-serif;
-        font-size: 150%;
-        margin-top: 0;
-    }
-    p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 190%;
-        
-    }
-    .footer {
-        color: #ffffff;
-        margin-left: 5%;
-        font-size: 150%;
-        -webkit-text-stroke: 1px #4b4b4b;
-    }
-    body {
-        background-image: url('https://img.myloview.ru/posters/geometric-black-background-with-white-lines-seamless-pattern-700-119555574.jpg');
-    }
-    .round-image {
-    border-radius: 50%;
-    }
-    .border_img {
-        border-radius: 30px;
-    }
-    LI {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 140%;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Первая страничка</title>  
 </head>
 <body>
     <header>
-        <h1 class = 'header'>Шапка сайта</h1>
-        <a href="index.html"><p>На главную</p></a>
+        <h1 class = 'header'>Мой сайт</h1>
       </header>
-    
+    <nav class="navbar">
+        <a href="index.html">Главная</a>         
+        <a href="resume.html">Резюме</a>
+        <a href="article.html">Крестики-Нолики</a>
+    </nav>
     <h1><img class = "round-image" src = "https://cover.imglib.info/uploads/users/392461/teSOKwDhvzJN.gif"> ПЕРВАЯ СТРАНИЧКА</h1>
     <div class="grid-container">
         <div class="grid-item item1">
-            
+            <p>
+                Вкратце обо <a href = 'https://sun9-36.userapi.com/impg/EEBqb1EjOWp8EeKwFLxfTQroYRbCNQjUDjeKSQ/tIGBHo0Wm3I.jpg?size=1498x1238&quality=95&sign=efe27032dfbea8f00bddf811163077ab&c_uniq_tag=VMtZCWwejYhoZA0RC8Ymc2pCazy8eq1UHE7GmhLpGK4&type=album'>мне</a> :
+                <UL TYPE = CIRCLE>
+                    <LI>Учусь на 2 курсе Самарского университета</LI>
+                    <LI>Обучаюсь веб дизайну, верстке, разметке</LI>
+                </UL>
+            </p>
         </div>
         <div class="grid-item item_blog">
             <h2>Блог</h2>
@@ -120,30 +40,20 @@
                 </OL>
             </p>
         </div>
-        <div class="grid-item item3">
-            <p>
-                Вкратце обо <a href = 'https://sun9-36.userapi.com/impg/EEBqb1EjOWp8EeKwFLxfTQroYRbCNQjUDjeKSQ/tIGBHo0Wm3I.jpg?size=1498x1238&quality=95&sign=efe27032dfbea8f00bddf811163077ab&c_uniq_tag=VMtZCWwejYhoZA0RC8Ymc2pCazy8eq1UHE7GmhLpGK4&type=album'>мне</a> :
-                <UL TYPE = CIRCLE>
-                    <LI>Учусь на 2 курсе Самарского университета</LI>
-                    <LI>Обучаюсь веб дизайну, верстке, разметке</LI>
-                </UL>
-            </p>
-        </div>  
-        <div class="grid-item item4">4</div>
-        <div class="grid-item item_img">
-            <img class="border_img" src = 'https://profchoice.ru/wp-content/uploads/2019/11/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82-1.jpg' height="100.5%">
-        </div>
-        <div class="grid-item item">
-            <a href = 'https://www.w3schools.com/css/css_grid.asp'>
-                <p>Полезная ссылка</p>
-            </a>
-            <a href = 'https://www.crazygames.com/game/sandtrix'>
-                <p>Играть в тетрис</p>
-            </a>
+        <div class = "grid-item item2">
+             <div class = "progress">
+                <p>Мои навыки в программировании:</p>
+                <p>HTML/CSS</p>
+                <progress class="skills html" value="10" max="100"></progress>
+                <p>C++</p>
+                <progress class="skills cpp" value="50" max="100"></progress>
+                <p>Python</p>
+                <progress class="skills pyh" value="20" max="100"></progress>
+            </div>
         </div>
       </div>
       <footer>
-        <p class = 'footer'>По вопросам рекламы обращаться некуда</p>
+        <p class = 'footer'>По вопросам рекламы обращаться <a href = "mailto:radikakovlev817@gmail.com"> radikakovlev817@gmail.com </a></p>
       </footer>
 </body>
 </html>
